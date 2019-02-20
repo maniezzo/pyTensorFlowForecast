@@ -1,0 +1,52 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+euristics/ant2/ant
+
+euristics/ant2/data1
+
+*.swp
+
+*.un~
+
+nn/__pycache__/
+
+*.py~
+
+*bazel*
+serie/third_party/tensorflow
+
+pyseries/src/__pycache__/
+
+pyseries/training_checkpoints/
