@@ -14,7 +14,7 @@ def main():
 	data = datautils.load(argv[2])
 
 	normalized, mean, std = datautils.normalize(data)
-	normalized = datautils.differentiate(normalized)
+	normalized, _ = datautils.differentiate(normalized)
 	(train, test) = datautils.split(normalized, 0.7)
 	
 	# utils.plot_data(data)
